@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<style>
+    body{
+        background-image: url("./assets/socials.jpg");
+        background-size: 1920px 1080px;
+        text-align: center;
+        position: relative; top:400px;
+        font-size: 30px;
+        font-family: 'Comme', sans-serif;
+        color: azure;
+
+    }
+</style>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+    <script type= "text/javascript">
+        c=1;
+        function matchpass(){
+        var pwd=document.f1.password.value;
+        var k=12345;
+        if(pwd!=""){
+            if(pwd==k){
+                return true;
+            }else{
+                alert("Incorrect key! Please try again");
+                if(c%3==0){
+                    alert("You have had " + c +" wrong attemts!")
+                }
+                c+=1;
+                return false;
+            }
+        }
+        else{
+            alert("Please enter the key!");
+            return false;
+        }
+    }
+    </script>
+</head>
+
+<body>
+    Enter your email : <input type="name" name="name" /><br/>
+    <form name="f1" action="./public/home.html" onsubmit="return matchpass()">
+    Enter the key provided : <input type="password" name="password" /><br/> 
+    <input type="submit" style="background-color: black; color: azure;">
+    </form>
+
+</body>
+<footer>
+    <p style="position:relative;top:300px"> &copy Pranav Sathya A R</p>
+</footer>
+</html>
