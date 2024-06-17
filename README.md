@@ -5,3 +5,5 @@ Took an afternoon to make this from scratch as a part of my exploration and look
 To visit, clone the repository, enter any email, and the password must be "12345"
 
 Also, click on the Thanks for visiting button on the contact page for a little something
+
+Visit : https://pranavs6.github.io/portfolio_2022/
